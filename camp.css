@@ -1,0 +1,296 @@
+.nav-color{
+    background-image: url(my-background.jpeg);
+    background-position-x: center;
+}
+
+.Tech{
+    color: white;
+}
+
+.Heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    margin-right: 50px;
+}
+
+.Heading ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-right: 420px;
+    
+}
+
+.Heading-Photo{
+    width: 170px;
+    height: 150px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+
+a.nav-link{
+    text-decoration: none;
+}
+
+a.nav-link.home.active{
+    color: dodgerblue;
+}
+
+a.nav-link.home{
+    color: whitesmoke;
+}
+
+.Get-Text{
+    color: white;
+    font: bold;
+    font-size: 40px;
+}
+
+.Gett{
+    padding-right: 600px;
+    padding-left: 50px;
+}
+.Start{
+     background-color: white;
+    border: 2px solid;
+    border-radius: 12px;
+    border-color: aliceblue;
+    color:rgb(3, 3, 24);
+    font: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Knowledge{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Fast-Track{
+    border-radius: 8px;
+    border-top: solid orange;
+    border-right:solid rgb(170, 128, 49);
+    border-left:solid rgb(141, 106, 42);
+    border-bottom: solid rgb(49, 46, 46);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+    margin: 20px;
+    padding-right: 250px;
+    padding-left: 20px;
+}
+
+.butt{
+    color: white;
+    margin-right: 200px;
+}
+
+.Track-Img{
+    height: 400px;
+    width: 550px;
+}
+
+.More{
+    display: flex;
+    gap: 15px;
+    font: bold;
+    color: rgb(60, 60, 158);
+}
+
+.Hero-Testimonial{
+    background-color: rgb(117, 129, 151);
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.Testimonial-img{
+    height: 300px;       
+    width: 45opx;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.Hero-Testimony{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.Hero-Testimony ul{
+    list-style: none;
+    padding-right: 150px;
+}
+
+.Testimony-Position{
+    padding-left: 46px;
+    padding-right: 1100px;
+}
+
+.Footer-Email{
+    text-align: center;
+}
+
+.Subscribe-border{
+    text-align: center;
+    border: 2px solid;
+    border-radius: 8px;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color:rgba(7, 7, 43, 0.959);
+}
+
+.Footer-icon{
+    width: 20px;
+}
+
+.Footer-Icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.LOGO{
+    padding-left: 20px;
+}
+
+.Contact{
+    margin: 7px;
+}
+
+.Footer ul li{
+    list-style: none;
+}
+
+
+
+/* PHONES */
+@media (max-width: 599px) {
+    .nav1 {
+        display: none;
+    }
+
+    .Heading-Photo {
+        display: none;
+    }
+
+    .Fast-Track {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Hero-Testimonial {
+        display: block; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Hero-Testimony {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Footer {
+        display: block;
+        justify-content: space-between;
+    }
+    }
+
+/* LARGE PHONES AND TABLETS*/
+@media (min-width: 600px) and (max-width: 767px) {
+    .nav1 {
+        display: none;
+    }
+
+    .Heading-Photo {
+        display: none;
+    }
+
+    .Fast-Track {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Hero-Testimonial {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Hero-Testimony {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .Footer {
+        display: block;
+        justify-content: space-between;
+    }
+}
+
+/* MEDIUM TABLETS */
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav1 {
+        display: none;
+    }
+
+    .Heading-Photo {
+        display: none;
+    }
+
+    .Fast-Track {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Hero-Testimonial {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Hero-Testimony {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .Footer {
+        display: block;
+        justify-content: space-between;
+    }
+}
+
+/* LAPTOPS */
+@media (min-width: 1200px) and (max-width: 1199px) {
+    
+}
+
+/* DESKTOPS */
+@media (min-width: 1200px) {
+
+}
